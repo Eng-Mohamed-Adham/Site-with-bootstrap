@@ -1,0 +1,97 @@
+/*Start Footer*/
+.footer{
+    padding: 100px 0;
+    @media#{$max-Smalls}{
+        padding: 50px 0;
+    }
+    .infon-site{
+        text-align: left;
+       h2{
+           margin-bottom: 35px;
+        span{
+    
+            font-size: 50px;
+        }
+        span:first-child {
+            color: $firstColor;
+            font-weight: bold;
+            margin-left: 35px;
+            
+        }
+        .last-child{
+            color: $secondColor;
+        }
+       }
+       p{
+        line-height: 1.8;
+        color: #31313172;
+        margin-bottom: 20px;
+       }
+       a{
+           color: $firstColor;
+           font-size: 15px;
+           font-weight: 800;
+       }
+       a:before{
+           font-family: 'Line Awesome Free';
+           content: "\f138";
+           display: inline-block;
+           margin-right: 5px;
+           font-weight: bold;
+       }
+
+    }
+    .helpful-links{
+        text-align: left;
+        h2{
+            font-size: 22px;
+            font-weight: bold;
+            color: $firstColor;
+            margin-bottom: 35px;
+        }
+        ul{
+            margin-bottom: 0;
+            li:before{
+                font-family: 'Line Awesome Free';
+                content: "\f054";
+                display: inline-block;
+                margin-right: 5px;
+                font-weight: bold;
+            }
+        }
+    }
+    .contact{
+        text-align: left;
+        font-size: 15px;
+        font-weight: 600;
+
+        h2{
+            font-size: 22px;
+            font-weight: bold;
+            color: $firstColor;
+            margin-bottom: 35px;
+        }
+        ul{
+            li{
+                margin-bottom: 20px;
+            }
+        }
+    }
+   
+}
+/*End Footer*/
+/*Start Copyright*/
+.copyright{
+    border-top: 1px solid rgb(97, 97, 97);
+    padding: 20px;
+    ul{
+        li{
+            display: inline-block;
+            margin-left: 20px;
+            a{
+                color: #777;
+            }
+        }
+    }
+}
+/*End Copyright*/
